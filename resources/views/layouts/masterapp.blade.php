@@ -21,6 +21,10 @@
     <!-- Favicon icon -->
     <link rel="icon" href="{{url ('template/dist/assets/images/favicon.svg') }}" type="image/x-icon">
 
+    <!-- Data table css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+
     <!-- font css -->
     <link rel="stylesheet" href="{{url ('template/dist/assets/fonts/feather.css') }}">
     <link rel="stylesheet" href="{{url ('template/dist/assets/fonts/fontawesome.css') }}">
@@ -67,7 +71,7 @@
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
-        @yield('content');
+        @yield('content')
     </div>
 </div>
 
@@ -85,6 +89,13 @@
 <script src="{{url ('template/dist/assets/js/plugins/apexcharts.min.js') }}"></script>
 <!-- custom-chart js -->
 <script src="{{url ('template/dist/assets/js/pages/dashboard-sale.js') }}"></script>
+
+<!-- Data table -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>  
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
 
 </body>
 </html>

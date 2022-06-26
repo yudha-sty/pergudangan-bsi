@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PegawaiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,8 +23,7 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [IndexController::class, 'index'])->name('home');
 
-
 /* Auth Routes */
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/pegawai', [PegawaiController::class, 'index'])->name('pegawai');
