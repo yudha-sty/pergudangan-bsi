@@ -1,7 +1,7 @@
 <nav class="pc-sidebar ">
 		<div class="navbar-wrapper">
 			<div class="m-header">
-				<a href="index.html" class="b-brand">
+				<a href="/" class="b-brand">
 					<!-- ========   change your logo hear   ============ -->
 					<img src="{{url ('template/dist/assets/images/logo.svg') }}" alt="" class="logo logo-lg">
 					<img src="{{url ('template/dist/assets/images/logo-sm.svg') }}" alt="" class="logo logo-sm">
@@ -36,7 +36,13 @@
 						</ul>
 					</li>
 					<li class="pc-item">
-						<a href="icon-feather.html" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">history_edu</i></span><span class="pc-mtext">Icons</span></a>
+						<a href="{{ route('users.index') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">history_edu</i></span><span class="pc-mtext">Manage User</span></a>
+					</li>
+					<li class="pc-item">
+						<a href="{{ route('roles.index') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">history_edu</i></span><span class="pc-mtext">Manage Roles</span></a>
+					</li>
+					<li class="pc-item">
+						<a href="{{ route('files.index') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">history_edu</i></span><span class="pc-mtext">Manage files</span></a>
 					</li>
 					<li class="pc-item pc-caption">
 						<label>Forms</label>

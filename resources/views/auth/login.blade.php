@@ -10,6 +10,8 @@
                 </span>
             </div>
 
+            <!-- Authentication Links -->
+
             <form method="POST" action="{{ route('login') }}" class="login100-form validate-form">
                 @csrf
                 <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
