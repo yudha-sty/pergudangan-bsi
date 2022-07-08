@@ -17,6 +17,15 @@ class UserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    function __construct()
+    {
+         $this->middleware('permission:file-list|file-create|file-edit|file-delete', ['only' => ['index','show']]);
+         $this->middleware('permission:file-create', ['only' => ['create','store']]);
+         $this->middleware('permission:file-edit', ['only' => ['edit','update']]);
+         $this->middleware('permission:file-delete', ['only' => ['destroy']]);
+    }
+
     public function index(Request $request)
     {
         $data = User::orderBy('id','DESC')->paginate(5);
@@ -68,8 +77,8 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        $user = User::find($id);
-        return view('users.show',compact('user'));
+        $roles = Role::pluck('name','name')->all();
+        return view('users.show',compact('roles'));
     }
 
     /**
