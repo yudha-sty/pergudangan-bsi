@@ -24,7 +24,7 @@
                                     <i class="material-icons-two-tone text-primary mb-1">language</i>
                                 </div>
                                 <div class="col-sm-8 text-md-center">
-                                    <h5>138</h5>
+                                    <h5>192</h5>
                                     <span>Total Berkas</span>
                                 </div>
                             </div>
@@ -118,17 +118,17 @@
             <div class="col-xl-6 col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5>DLaporan bulanan persediaan berkas</h5>
+                        <h5>Laporan bulanan persediaan berkas</h5>
                     </div>
                     <div class="card-body">
                         <div class="row pb-2">
                             <div class="col-auto m-b-10">
-                                <h3 class="mb-1">$21,356.46</h3>
-                                <span>Total Sales</span>
+                                <h3 class="mb-1">192</h3>
+                                <span>Total Berkas</span>
                             </div>
                             <div class="col-auto m-b-10">
-                                <h3 class="mb-1">$1935.6</h3>
-                                <span>Average</span>
+                                <h3 class="mb-1">53</h3>
+                                <span>Berkas Keluar</span>
                             </div>
                         </div>
                         <div id="account-chart"></div>

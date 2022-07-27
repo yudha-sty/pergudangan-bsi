@@ -19,5 +19,13 @@
     </div>
 </div> --}}
 
+<div class="row">
+    <table>
+        <tr>
+            <td>No</td>
+        </tr>
+    </table>
+</div>
+
     
 @endsection

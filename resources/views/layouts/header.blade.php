@@ -81,7 +81,7 @@
 							<img src="{{url ('template/dist/assets/images/user/avatar-2.jpg') }}" alt="user-image" class="user-avtar">
 							<span>
 								<span class="user-name">{{ Auth::user()->name }}</span>
-								<span class="user-desc">Administrator</span>
+								<span class="user-desc">Akses</span>
 							</span>
 						</a>
 						<div class="dropdown-menu dropdown-menu-right pc-h-dropdown">
